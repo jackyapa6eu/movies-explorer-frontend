@@ -5,10 +5,6 @@
 2. Установить необходимые пакеты команды: npm install  
 3. Запустить приложение: npm run start
 
-## Публичный адрес.  
-  
-https://movies-explorer.jackyapa6eu.students.nomoredomains.monster
-или  
-http://movies-explorer.jackyapa6eu.students.nomoredomains.monster
+Чтобы посмотреть разные состояния приложения на страницах входа/регистрации и профиля, необходимо нажимать кнопку сабмита.
   
 
