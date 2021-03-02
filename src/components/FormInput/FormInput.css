@@ -1,0 +1,21 @@
+.form-input {
+  width: 100%;
+  box-sizing: border-box;
+  font-size: 13px;
+  line-height: 16px;
+  color: #FFFFFF;
+  padding: 15px;
+  background: #2F2F2F;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+.form-input_invalid {
+  color: #EE3465;
+  box-shadow: 0px 0px 7px #EE3465;
+}
+
+.form-input:focus {
+  box-shadow: 0px 0px 7px white;
+}
