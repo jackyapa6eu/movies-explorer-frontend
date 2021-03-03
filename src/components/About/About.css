@@ -1,0 +1,134 @@
+.about {
+  padding: 70px 0 110px 0px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.about__article {
+  width: 50%;
+  max-width: 550px;
+  margin-bottom: 110px;
+}
+
+.about__subtitle {
+  margin: 0;
+  font-size: 20px;
+  line-height: 24.2px;
+  font-weight: 400;
+  margin-bottom: 26px;
+  letter-spacing: -0.04em;
+}
+
+.about__description {
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.about__timeframes {
+  display: flex;
+  width: 100%;
+}
+
+.about__timeframe {
+  text-align: center;
+}
+
+.about__timeframe_duration_one {
+  width: 20%;
+}
+
+.about__timeframe_duration_four {
+  width: 80%;
+}
+
+.about__duration {
+  background: #303030;
+  margin: 0;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  padding: 9px 0;
+  margin-bottom: 14px;
+}
+
+.about__duration_contrast {
+  background: #3DDC84;
+}
+
+.about__duration-description {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  color: #8B8B8B;
+  margin: 0;
+}
+
+@media screen and (max-width: 850px) {
+  .about {
+    padding-bottom: 90px;
+  }
+
+  .about__description {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .about__article {
+    max-width: 48%;
+    margin-bottom: 93px;
+  }
+
+  .about__subtitle {
+    margin-bottom: 22px;
+  }
+}
+
+@media screen and (max-width: 557px) {
+  .about {
+    padding-top: 60px;
+  }
+
+  .about__article {
+    max-width: 100%;
+    width: 100%;
+    margin-bottom: 56px;
+  }
+
+  .about__article:last-of-type {
+    margin-bottom: 60px;
+  }
+
+  .about__subtitle {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 16px;
+  }
+
+  .about__description {
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .about__duration {
+    font-size: 11px;
+    line-height: 13px;
+    padding: 11px 0;
+    margin-bottom: 10px;
+  }
+
+  .about__duration-description {
+    font-size: 11px;
+    line-height: 13px;
+  }
+
+  .about__timeframe_duration_one {
+    width: 35%;
+  }
+
+  .about__timeframe_duration_four {
+    width: 65%;
+  }
+}

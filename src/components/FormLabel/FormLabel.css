@@ -1,0 +1,15 @@
+.form-label {
+  margin-bottom: 20px;
+}
+
+.form-label:last-of-type {
+  margin-bottom: 10px;
+}
+
+.form-label__text {
+  display: block;
+  font-size: 10px;
+  line-height: 12px;
+  color: #8B8B8B;
+  margin-bottom: 10px;
+}
