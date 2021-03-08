@@ -20,6 +20,15 @@
   cursor: pointer;
 }
 
+.movies__nothing-saved {
+  text-align: center;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
 .movies__show-more:hover {
   opacity: .7;
 }

@@ -6,7 +6,6 @@ import BurgerMenuImg from '../../images/burger-menu-icon.svg';
 
 function BurgerMenu({ setisMobileMenuOpened }) {
   function openBurgerMenu() {
-    console.log('open burger menu');
     setisMobileMenuOpened(true);
   }
   return (

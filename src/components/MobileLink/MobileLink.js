@@ -11,7 +11,6 @@ function MobileLink({ path, linkText, setisMobileMenuOpened }) {
     event.stopPropagation();
     history.push(path);
     setisMobileMenuOpened(false);
-    console.log(path);
   }
 
   return (

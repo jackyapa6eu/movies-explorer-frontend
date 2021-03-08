@@ -3,7 +3,7 @@
   align-items: center;
   padding-top: 29px;
   border-top: 1px solid #424242;
-  margin-bottom: 47px;
+  margin-bottom: 27px;
 }
 
 .filter-checkbox__label {
@@ -62,7 +62,7 @@
   .filter-checkbox {
     justify-content: flex-end;
     padding-top: 33px;
-    margin-bottom: 44px;
+    margin-bottom: 24px;
   }
 
   .filter-checkbox__text {
@@ -81,7 +81,7 @@
   .filter-checkbox {
     justify-content: center;
     padding-top: 40px;
-    margin-bottom: 4px;
+    margin-bottom: 14px;
   }
 
   .filter-checkbox__text {
