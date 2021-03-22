@@ -6,7 +6,7 @@ import Logo from '../Logo/Logo';
 import BurgerMenu from '../BurgerMenu/BurgerMenu';
 import AccountLink from '../AccountLink/AccountLink';
 
-function Header({ setisMobileMenuOpened }) {
+function Header({ setisMobileMenuOpened, isLoggedIn }) {
   const history = useHistory();
   function openAccount() {
     history.push('/profile');
@@ -15,14 +15,14 @@ function Header({ setisMobileMenuOpened }) {
     <header className="header">
       <nav className="header__nav">
         <Logo place={'header'}/>
-        <Link className="header__link header__link_type_movies" to="/movies">Фильмы</Link>
-        <Link className="header__link header__link_type_movies" to="/saved-movies">Сохраненные фильмы</Link>
+        {isLoggedIn && <Link className="header__link header__link_type_movies" to="/movies">Фильмы</Link>}
+        {isLoggedIn && <Link className="header__link header__link_type_movies" to="/saved-movies">Сохраненные фильмы</Link>}
       </nav>
       <nav className="header__nav">
-        <Link className="header__link header__link_type_signup" to="/signup">Регистрация</Link>
-        <Link className="header__link header__link_type_signin" to="/signin">Войти</Link>
-        <AccountLink openAccount={openAccount} place={'header'}/>
-        <BurgerMenu setisMobileMenuOpened={setisMobileMenuOpened}/>
+        {!isLoggedIn && <Link className="header__link header__link_type_signup" to="/signup">Регистрация</Link>}
+        {!isLoggedIn && <Link className="header__link header__link_type_signin" to="/signin">Войти</Link>}
+        {isLoggedIn && <AccountLink openAccount={openAccount} place={'header'}/>}
+        {isLoggedIn && <BurgerMenu setisMobileMenuOpened={setisMobileMenuOpened}/>}
       </nav>
     </header>
   );
@@ -30,6 +30,7 @@ function Header({ setisMobileMenuOpened }) {
 
 Header.propTypes = {
   setisMobileMenuOpened: PropTypes.func,
+  isLoggedIn: PropTypes.bool,
 };
 
 export default Header;

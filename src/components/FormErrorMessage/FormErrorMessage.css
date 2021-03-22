@@ -5,4 +5,9 @@
   margin-bottom: 57px;
   color: #EE3465;
   min-height: 24px;
+  visibility: hidden;
+}
+
+.form-error-message_active {
+  visibility: visible;
 }
