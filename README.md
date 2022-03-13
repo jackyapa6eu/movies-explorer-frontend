@@ -9,6 +9,6 @@
 2. Установить необходимые пакеты команды: npm install  
 3. Запустить приложение: npm run start
 
-https://movies-explorer.jackyapa6eu.students.nomoredomains.monster/
+
   
 
