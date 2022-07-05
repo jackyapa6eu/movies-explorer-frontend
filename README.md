@@ -6,6 +6,8 @@
 
 ## Технологии
 - React
+- React-router-dom
+- Prop-types
 - Flexbox
 - Grid
 - Условная отрисовка элемента с использованием switch case
@@ -25,6 +27,11 @@ npm install
 ## Запуск
 ```
 npm run start
+```
+
+## Сборка
+```
+npm run build
 ```
 
 ## Статус проекта: завершен
